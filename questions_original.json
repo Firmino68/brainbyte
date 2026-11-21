@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "category": "Tecnologia",
+      "prompt": "Que linguagem de programação foi criada por Guido van Rossum?",
+      "options": ["Java", "Python", "C++", "Ruby"],
+      "correct_answer": "Python",
+      "base_points": 10,
+      "explanation": "Guido van Rossum lançou o Python em 1991."
+    },
+    {
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual é o planeta do Sistema Solar mais próximo do Sol?",
+      "options": ["Vénus", "Terra", "Mercúrio", "Marte"],
+      "correct_answer": "Mercúrio",
+      "base_points": 10,
+      "explanation": "Mercúrio orbita a cerca de 58 milhões de km do Sol."
+    },
+    {
+      "type": "multiple_choice",
+      "category": "História",
+      "prompt": "Em que ano ocorreu a Revolução dos Cravos em Portugal?",
+      "options": ["1968", "1974", "1976", "1986"],
+      "correct_answer": "1974",
+      "base_points": 10,
+      "explanation": "A Revolução dos Cravos foi a 25 de abril de 1974."
+    },
+    {
+      "type": "multiple_choice",
+      "category": "Cultura Geral",
+      "prompt": "Quem pintou a Mona Lisa?",
+      "options": ["Michelangelo", "Rafael", "Leonardo da Vinci", "Botticelli"],
+      "correct_answer": "Leonardo da Vinci",
+      "base_points": 10,
+      "explanation": "Leonardo da Vinci pintou-a no início do século XVI."
+    },
+    {
+      "type": "true_false",
+      "category": "Tecnologia",
+      "prompt": "Em Python, as listas são imutáveis.",
+      "correct_answer": "Falso",
+      "base_points": 10,
+      "explanation": "As listas são mutáveis. Os tuplos é que são imutáveis."
+    },
+    {
+      "type": "true_false",
+      "category": "Ciência",
+      "prompt": "Ao nível do mar, a água ferve a 100 °C.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "A 100 °C à pressão atmosférica normal (1 atm)."
+    },
+    {
+      "type": "true_false",
+      "category": "História",
+      "prompt": "Vasco da Gama chegou à Índia por mar em 1498.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "Chegou a Calecute em maio de 1498."
+    },
+    {
+      "type": "true_false",
+      "category": "Cultura Geral",
+      "prompt": "O Monte Evereste é a montanha mais alta do mundo acima do nível do mar.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "Tem cerca de 8 849 metros de altitude."
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "code_snippet": "print(len(\"BrainByte\"))",
+      "correct_answer": "9",
+      "base_points": 10,
+      "explanation": "\"BrainByte\" tem 9 caracteres."
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "code_snippet": "x = [1, 2, 3]\nx.append(4)\nprint(sum(x))",
+      "correct_answer": "10",
+      "base_points": 10,
+      "explanation": "Depois do append, a lista é [1, 2, 3, 4] e a soma é 10."
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código? (separa os valores com um espaço)",
+      "code_snippet": "print(10 // 3, 10 % 3)",
+      "correct_answer": "3 1",
+      "base_points": 10,
+      "explanation": "// é a divisão inteira (3) e % é o resto (1)."
+    }
+  ]
+}

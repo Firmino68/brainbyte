@@ -1,0 +1,417 @@
+{
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "category": "Tecnologia",
+      "prompt": "Que linguagem de programação foi criada por Guido van Rossum?",
+      "options": [
+        "Java",
+        "Python",
+        "C++",
+        "Ruby"
+      ],
+      "correct_answer": "Python",
+      "base_points": 10,
+      "explanation": "Guido van Rossum lançou o Python em 1991.",
+      "id": "q001",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual é o planeta do Sistema Solar mais próximo do Sol?",
+      "options": [
+        "Vénus",
+        "Terra",
+        "Mercúrio",
+        "Marte"
+      ],
+      "correct_answer": "Mercúrio",
+      "base_points": 10,
+      "explanation": "Mercúrio orbita a cerca de 58 milhões de km do Sol.",
+      "id": "q002",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "multiple_choice",
+      "category": "História",
+      "prompt": "Em que ano ocorreu a Revolução dos Cravos em Portugal?",
+      "options": [
+        "1968",
+        "1974",
+        "1976",
+        "1986"
+      ],
+      "correct_answer": "1974",
+      "base_points": 10,
+      "explanation": "A Revolução dos Cravos foi a 25 de abril de 1974.",
+      "id": "q003",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "multiple_choice",
+      "category": "Cultura Geral",
+      "prompt": "Quem pintou a Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Rafael",
+        "Leonardo da Vinci",
+        "Botticelli"
+      ],
+      "correct_answer": "Leonardo da Vinci",
+      "base_points": 10,
+      "explanation": "Leonardo da Vinci pintou-a no início do século XVI.",
+      "id": "q004",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "true_false",
+      "category": "Tecnologia",
+      "prompt": "Em Python, as listas são imutáveis.",
+      "correct_answer": "Falso",
+      "base_points": 10,
+      "explanation": "As listas são mutáveis. Os tuplos é que são imutáveis.",
+      "id": "q005",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "true_false",
+      "category": "Ciência",
+      "prompt": "Ao nível do mar, a água ferve a 100 °C.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "A 100 °C à pressão atmosférica normal (1 atm).",
+      "id": "q006",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "true_false",
+      "category": "História",
+      "prompt": "Vasco da Gama chegou à Índia por mar em 1498.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "Chegou a Calecute em maio de 1498.",
+      "id": "q007",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "true_false",
+      "category": "Cultura Geral",
+      "prompt": "O Monte Evereste é a montanha mais alta do mundo acima do nível do mar.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "Tem cerca de 8 849 metros de altitude.",
+      "id": "q008",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "code_snippet": "print(len(\"BrainByte\"))",
+      "correct_answer": "9",
+      "base_points": 10,
+      "explanation": "\"BrainByte\" tem 9 caracteres.",
+      "id": "q009",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "code_snippet": "x = [1, 2, 3]\nx.append(4)\nprint(sum(x))",
+      "correct_answer": "10",
+      "base_points": 10,
+      "explanation": "Depois do append, a lista é [1, 2, 3, 4] e a soma é 10.",
+      "id": "q010",
+      "difficulty": "Médio"
+    },
+    {
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código? (separa os valores com um espaço)",
+      "code_snippet": "print(10 // 3, 10 % 3)",
+      "correct_answer": "3 1",
+      "base_points": 10,
+      "explanation": "// é a divisão inteira (3) e % é o resto (1).",
+      "id": "q011",
+      "difficulty": "Médio"
+    },
+    {
+      "id": "q012",
+      "type": "multiple_choice",
+      "category": "Tecnologia",
+      "prompt": "Qual é o resultado de 2 ** 3 em Python?",
+      "correct_answer": "8",
+      "base_points": 10,
+      "explanation": "O operador ** representa exponenciação em Python.",
+      "difficulty": "Fácil",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "16"
+      ]
+    },
+    {
+      "id": "q013",
+      "type": "multiple_choice",
+      "category": "Tecnologia",
+      "prompt": "Qual estrutura de dados não permite elementos duplicados?",
+      "correct_answer": "Conjunto (set)",
+      "base_points": 10,
+      "explanation": "Os conjuntos armazenam elementos únicos.",
+      "difficulty": "Médio",
+      "options": [
+        "Lista",
+        "Tuplo",
+        "Conjunto (set)",
+        "String"
+      ]
+    },
+    {
+      "id": "q014",
+      "type": "true_false",
+      "category": "Tecnologia",
+      "prompt": "Em Python, as listas são mutáveis.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "As listas permitem adicionar, remover e alterar elementos.",
+      "difficulty": "Fácil"
+    },
+    {
+      "id": "q015",
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "correct_answer": "8",
+      "base_points": 10,
+      "explanation": "O operador ** calcula a potência.",
+      "difficulty": "Fácil",
+      "code_snippet": "print(2 ** 3)"
+    },
+    {
+      "id": "q016",
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "correct_answer": "ABC",
+      "base_points": 10,
+      "explanation": "upper() devolve uma versão em maiúsculas.",
+      "difficulty": "Fácil",
+      "code_snippet": "print(\"abc\".upper())"
+    },
+    {
+      "id": "q017",
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual é o símbolo químico do ouro?",
+      "correct_answer": "Au",
+      "base_points": 10,
+      "explanation": "Au vem do latim aurum.",
+      "difficulty": "Fácil",
+      "options": [
+        "Ag",
+        "Au",
+        "Fe",
+        "O"
+      ]
+    },
+    {
+      "id": "q018",
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual é o planeta conhecido como planeta vermelho?",
+      "correct_answer": "Marte",
+      "base_points": 10,
+      "explanation": "A superfície de Marte contém óxidos de ferro.",
+      "difficulty": "Fácil",
+      "options": [
+        "Vénus",
+        "Júpiter",
+        "Marte",
+        "Mercúrio"
+      ]
+    },
+    {
+      "id": "q019",
+      "type": "true_false",
+      "category": "Ciência",
+      "prompt": "A luz viaja mais depressa do que o som no ar.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "A velocidade da luz é muito superior à velocidade do som.",
+      "difficulty": "Fácil"
+    },
+    {
+      "id": "q020",
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual é a unidade SI de força?",
+      "correct_answer": "Newton",
+      "base_points": 10,
+      "explanation": "A força mede-se em newtons (N).",
+      "difficulty": "Médio",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ]
+    },
+    {
+      "id": "q021",
+      "type": "multiple_choice",
+      "category": "História",
+      "prompt": "Em que ano terminou a Segunda Guerra Mundial?",
+      "correct_answer": "1945",
+      "base_points": 10,
+      "explanation": "A guerra terminou em 1945.",
+      "difficulty": "Fácil",
+      "options": [
+        "1939",
+        "1942",
+        "1945",
+        "1950"
+      ]
+    },
+    {
+      "id": "q022",
+      "type": "true_false",
+      "category": "História",
+      "prompt": "A imprensa de tipos móveis europeia é associada a Johannes Gutenberg.",
+      "correct_answer": "Verdadeiro",
+      "base_points": 10,
+      "explanation": "Gutenberg popularizou a impressão de tipos móveis na Europa no século XV.",
+      "difficulty": "Médio"
+    },
+    {
+      "id": "q023",
+      "type": "multiple_choice",
+      "category": "História",
+      "prompt": "Que civilização construiu Machu Picchu?",
+      "correct_answer": "Inca",
+      "base_points": 10,
+      "explanation": "Machu Picchu é um sítio arqueológico da civilização Inca.",
+      "difficulty": "Fácil",
+      "options": [
+        "Maia",
+        "Inca",
+        "Asteca",
+        "Egípcia"
+      ]
+    },
+    {
+      "id": "q024",
+      "type": "multiple_choice",
+      "category": "Cultura Geral",
+      "prompt": "Qual é a capital do Canadá?",
+      "correct_answer": "Ottawa",
+      "base_points": 10,
+      "explanation": "Ottawa é a capital federal do Canadá.",
+      "difficulty": "Fácil",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ]
+    },
+    {
+      "id": "q025",
+      "type": "true_false",
+      "category": "Cultura Geral",
+      "prompt": "O Oceano Atlântico é o maior oceano da Terra.",
+      "correct_answer": "Falso",
+      "base_points": 10,
+      "explanation": "O Oceano Pacífico é o maior oceano.",
+      "difficulty": "Fácil"
+    },
+    {
+      "id": "q026",
+      "type": "multiple_choice",
+      "category": "Cultura Geral",
+      "prompt": "Quantos lados tem um hexágono?",
+      "correct_answer": "6",
+      "base_points": 10,
+      "explanation": "Um hexágono é um polígono de seis lados.",
+      "difficulty": "Fácil",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "q027",
+      "type": "multiple_choice",
+      "category": "Tecnologia",
+      "prompt": "Qual destas opções é uma biblioteca Python para análise de dados?",
+      "correct_answer": "NumPy",
+      "base_points": 10,
+      "explanation": "NumPy fornece estruturas e operações eficientes para arrays numéricos.",
+      "difficulty": "Médio",
+      "options": [
+        "NumPy",
+        "HTML",
+        "CSS",
+        "Nginx"
+      ]
+    },
+    {
+      "id": "q028",
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "correct_answer": "4",
+      "base_points": 10,
+      "explanation": "Os índices das listas começam em zero.",
+      "difficulty": "Médio",
+      "code_snippet": "nums = [2, 4, 6]\nprint(nums[1])"
+    },
+    {
+      "id": "q029",
+      "type": "multiple_choice",
+      "category": "Ciência",
+      "prompt": "Qual destas partículas tem carga elétrica negativa?",
+      "correct_answer": "Eletrão",
+      "base_points": 10,
+      "explanation": "O eletrão tem carga elétrica negativa.",
+      "difficulty": "Médio",
+      "options": [
+        "Protão",
+        "Neutrão",
+        "Eletrão",
+        "Fotão"
+      ]
+    },
+    {
+      "id": "q030",
+      "type": "multiple_choice",
+      "category": "História",
+      "prompt": "Qual foi a primeira dinastia de Portugal?",
+      "correct_answer": "Borgonha",
+      "base_points": 10,
+      "explanation": "A primeira dinastia portuguesa é geralmente designada por dinastia de Borgonha ou Afonsina.",
+      "difficulty": "Difícil",
+      "options": [
+        "Avis",
+        "Bragança",
+        "Borgonha",
+        "Afonsina"
+      ]
+    },
+    {
+      "id": "q031",
+      "type": "code_output",
+      "category": "Tecnologia",
+      "prompt": "O que imprime este código?",
+      "correct_answer": "False",
+      "base_points": 10,
+      "explanation": "Uma lista vazia é avaliada como False em contexto booleano.",
+      "difficulty": "Difícil",
+      "code_snippet": "print(bool([]))"
+    }
+  ]
+}
